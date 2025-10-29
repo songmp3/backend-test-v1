@@ -15,8 +15,8 @@ allprojects {
 
     group = "kr.thedream"
     version = "0.0.1-SNAPSHOT"
-
-    java { toolchain { languageVersion = JavaLanguageVersion.of(22) } }
+    //과제 요구와 동일하게 21로 버전 설정
+    java { toolchain { languageVersion = JavaLanguageVersion.of(21) } }
 
     kotlin {
         compilerOptions {
